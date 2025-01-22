@@ -1,0 +1,12 @@
+.custom-button {
+  border: 2px solid white;
+  font-weight: 600;
+  color: white;
+  &:hover {
+    color: #c2c2c2 !important;
+    border: 2px solid #c2c2c2 !important;
+  }
+  @media (max-width: 480px) {
+    display: none;
+  }
+}
